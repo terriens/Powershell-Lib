@@ -1,0 +1,1 @@
+Name;IP;Master;SlaveServer01;192.168.1.101;true;falseServer02;192.168.1.102;true;trueServer03;192.168.1.103;false;trueServer04;192.168.1.104;true;trueServer05;192.168.1.105;false;trueServer06;192.168.1.106;false;trueServer07;192.168.1.107;false;trueServer08;192.168.1.108;false;trueServer09;192.168.1.109;false;trueServer10;192.168.1.110;false;true

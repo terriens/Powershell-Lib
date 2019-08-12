@@ -1,0 +1,16 @@
+Name,IP,http,https,AllowFirewallRuleCreated,Master,Slave,Need_a_SelfSigned,CreateLocalAccount,Password,CreateLocalAccountAdmin,PasswordAdmin,Need_Dns_Entry,WSMANPortHttps,WSMANPortCIM,MACadress,ActivateCIM
+Server01,192.168.1.10,false,true,true,true,true,true,true,P@ssw0rd,true,@dm1nP@ssw0rd,true,5986,5989,ff:ff:ff:ff:ff:ff,true
+Server02,192.168.1.11,false,true,true,false,true,true,true,P@ssw0rd,true,@dm1nP@ssw0rd,true,5986,5989,ff:ff:ff:ff:ff:ff,true
+Server03,192.168.1.12,false,true,true,false,true,true,true,P@ssw0rd,true,@dm1nP@ssw0rd,true,5986,5989,ff:ff:ff:ff:ff:ff,true
+Server04,192.168.1.13,false,true,true,false,true,true,true,P@ssw0rd,true,@dm1nP@ssw0rd,true,5986,5989,ff:ff:ff:ff:ff:ff,true
+Server05,192.168.1.14,false,true,true,false,true,true,true,P@ssw0rd,true,@dm1nP@ssw0rd,true,5986,5989,ff:ff:ff:ff:ff:ff,true
+Server06,192.168.1.15,false,true,true,false,true,true,true,P@ssw0rd,true,@dm1nP@ssw0rd,true,5986,5989,ff:ff:ff:ff:ff:ff,true
+Server07,192.168.1.16,false,true,true,false,true,true,true,P@ssw0rd,true,@dm1nP@ssw0rd,true,5986,5989,ff:ff:ff:ff:ff:ff,true
+Server08,192.168.1.17,false,true,true,false,true,true,true,P@ssw0rd,true,@dm1nP@ssw0rd,true,5986,5989,ff:ff:ff:ff:ff:ff,true
+Server09,192.168.1.18,false,true,true,false,true,true,true,P@ssw0rd,true,@dm1nP@ssw0rd,true,5986,5989,ff:ff:ff:ff:ff:ff,true
+Server10,192.168.1.19,false,true,true,false,true,true,true,P@ssw0rd,true,@dm1nP@ssw0rd,true,5986,5989,ff:ff:ff:ff:ff:ff,true
+Server11,192.168.1.20,false,true,true,true,true,true,true,P@ssw0rd,true,@dm1nP@ssw0rd,true,5986,5989,ff:ff:ff:ff:ff:ff,true
+Server12,192.168.1.21,false,true,true,false,true,true,true,P@ssw0rd,true,@dm1nP@ssw0rd,true,5986,5989,ff:ff:ff:ff:ff:ff,true
+Server13,192.168.1.22,false,true,true,false,true,true,true,P@ssw0rd,true,@dm1nP@ssw0rd,true,5986,5989,ff:ff:ff:ff:ff:ff,true
+Server14,192.168.1.23,false,true,true,true,true,true,true,P@ssw0rd,true,@dm1nP@ssw0rd,true,5986,5989,ff:ff:ff:ff:ff:ff,true
+Server15,192.168.1.24,false,true,true,false,true,true,true,P@ssw0rd,true,@dm1nP@ssw0rd,true,5986,5989,ff:ff:ff:ff:ff:ff,true
