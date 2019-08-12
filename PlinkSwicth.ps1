@@ -4,11 +4,13 @@ Write-Host "|     ___<   |  ||  |  /  _ \ "
 Write-Host "|    |    \___  ||  |_(  <_> )"
 Write-Host "|____|    / ____||____/\____/ "
 Write-Host "          \/                  "
+Test-Path "C:\Program Files (x86)\PuTTY\plink.exe"
 
 Set-Alias plink "C:\Program Files (x86)\PuTTY\plink.exe"
-$switchhostname=gc c:\tmp\switchIPhostname.txt
-$SwitchIP=gc c:\tmp\switchIP.txt
-$pwd=read-host "TypeHerePassword"
+$plinkcommand=Get-Command "plink"
+$switchhostname=gc c:\tmp\switchIPHostname.txt
+$SwitchIP= gc c:\tmp\switchIP.txt
+$pwd="TypeHerePassword"
 $Switchusername="admin"
 
 Write-Host
@@ -28,3 +30,4 @@ for($i_i=0; $i_i -le $SwitchIP.count;$i_i++)
     plink -ssh -2 $SwitchIP[$i_i] -l $Switchusername -pw $pwd "sh run" >> ($Path+$switchhostname[$i_i]+".txt") 2>&1
 }
 Write-Host  "End of process"
+Read-Host "Type Enter..."
